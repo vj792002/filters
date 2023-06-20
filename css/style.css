@@ -1,0 +1,46 @@
+img{
+	height:500px;
+	width:900px;
+}
+.blr{
+	filter:blur(5px);
+}
+.blr:hover{
+	filter:blur(0px);
+}
+.hr{
+	filter:hue-rotate(0deg);
+}
+.hr:hover{
+filter:hue-rotate(290deg);
+}
+.brt{
+	filter:brightness(1);
+}
+.brt:hover{
+filter:brightness(1.5);
+}
+.invtt{
+	filter:invert(0);
+}
+.invt:hover{
+filter:invert(1);
+}
+.gscale{
+	filter:grayscale(0);
+}
+.gscale:hover{
+filter:grayscale(1);
+}
+.stre{
+	filter:saturate(1);
+}
+.stre:hover{
+filter:saturate(10);
+}
+.sep{
+	filter:sepia(0);
+}
+.sep:hover{
+filter:sepia(20);
+}
